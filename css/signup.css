@@ -1,0 +1,46 @@
+
+body{
+    padding: 26px !important;
+
+
+    color:#ffffff;
+    /* Control the height of the image */
+    min-height: 380px;
+  background-color: aqua;
+    /* Center and scale the image nicely */
+    
+ }
+
+ .label{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #btnsbt{
+    flex-wrap: nowrap;
+    display: block;
+    text-align: center;
+ }
+ .bg-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: #ffffff;
+    padding: 25px;
+   background-image:url("https://bebs.org/wp-content/uploads/2019/05/form-background-1024x683.jpg");
+ }
+ input[type=text]{
+width: 100%;
+
+border-radius: 5px;
+border-width: 0px !important;
+font-size: 18px;
+height: 50%;
+
+
+ }
+ form{
+    background: linear-gradient(
+        300deg
+        , #1b8dcf, transparent);
+        padding: 20px;
+ }
